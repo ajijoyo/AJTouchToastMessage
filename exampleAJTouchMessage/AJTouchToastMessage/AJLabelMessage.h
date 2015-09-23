@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AJLabelMessage.h
 //  exampleAJTouchMessage
 //
 //  Created by Rachmad Junaidi on 9/23/15.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AJLabelMessage : UILabel
 
--(IBAction)buttontap:(id)sender;
--(IBAction)buttpn2:(id)sender;
+-(id)initWithDuration:(CGFloat)duration;
 @end
-

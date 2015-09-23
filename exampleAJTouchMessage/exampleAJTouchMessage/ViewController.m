@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AJTouchToastMessage.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+-(void)buttontap:(id)sender{
+    [sender AJTsetMessage:@"haihaihaihaihaihaihai haihaihaihai hai  haihaihaihai haihaihai haihaihaihai haihaihai haihaihai"];
+}
+-(void)buttpn2:(id)sender{
+    [sender AJTsetMessage:@"WOW" withDuration:5];
 }
 
 - (void)didReceiveMemoryWarning {

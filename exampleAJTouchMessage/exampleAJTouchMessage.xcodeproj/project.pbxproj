@@ -13,6 +13,8 @@
 		D15C48841BB250D600D7B821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15C48821BB250D600D7B821 /* Main.storyboard */; };
 		D15C48861BB250D600D7B821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15C48851BB250D600D7B821 /* Assets.xcassets */; };
 		D15C48891BB250D600D7B821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15C48871BB250D600D7B821 /* LaunchScreen.storyboard */; };
+		D15C48931BB25B6C00D7B821 /* AJTouchToastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D15C48921BB25B6C00D7B821 /* AJTouchToastMessage.m */; settings = {ASSET_TAGS = (); }; };
+		D15C48961BB25D7E00D7B821 /* AJLabelMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D15C48951BB25D7E00D7B821 /* AJLabelMessage.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		D15C48851BB250D600D7B821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15C48881BB250D600D7B821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D15C488A1BB250D600D7B821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15C48911BB25B6C00D7B821 /* AJTouchToastMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJTouchToastMessage.h; sourceTree = "<group>"; };
+		D15C48921BB25B6C00D7B821 /* AJTouchToastMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJTouchToastMessage.m; sourceTree = "<group>"; };
+		D15C48941BB25D7E00D7B821 /* AJLabelMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJLabelMessage.h; sourceTree = "<group>"; };
+		D15C48951BB25D7E00D7B821 /* AJLabelMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJLabelMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 		D15C48901BB250FC00D7B821 /* AJTouchToastMessage */ = {
 			isa = PBXGroup;
 			children = (
+				D15C48911BB25B6C00D7B821 /* AJTouchToastMessage.h */,
+				D15C48921BB25B6C00D7B821 /* AJTouchToastMessage.m */,
+				D15C48941BB25D7E00D7B821 /* AJLabelMessage.h */,
+				D15C48951BB25D7E00D7B821 /* AJLabelMessage.m */,
 			);
 			path = AJTouchToastMessage;
 			sourceTree = "<group>";
@@ -159,6 +169,8 @@
 			files = (
 				D15C48811BB250D500D7B821 /* ViewController.m in Sources */,
 				D15C487E1BB250D400D7B821 /* AppDelegate.m in Sources */,
+				D15C48961BB25D7E00D7B821 /* AJLabelMessage.m in Sources */,
+				D15C48931BB25B6C00D7B821 /* AJTouchToastMessage.m in Sources */,
 				D15C487B1BB250D400D7B821 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +320,7 @@
 				D15C488F1BB250D600D7B821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
