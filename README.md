@@ -11,12 +11,16 @@ Toast Message IOS Objective-C
 AJTouchToastMessage is extension of uiview
 
 ```objc
-[sender AJTsetMessage:@"WOW" withDuration:5];
+-(IBAction)buttonDidtap:(id)sender{
+    [sender AJTsetMessage:@"WOW" withDuration:5];
+}
 ```
 or
 
 ```objc
-[sender AJTsetMessage:@"WOW"];
+-(IBAction)buttonDidtap:(id)sender{
+    [sender AJTsetMessage:@"WOW"];
+}
 ```
 
 #license
